@@ -78,9 +78,10 @@ public class Interfaccia {
 	 */
 	private void initialize() {
 		frmResistorCheck = new JFrame();
+		frmResistorCheck.setAutoRequestFocus(false);
 		frmResistorCheck.setResizable(false);
 		frmResistorCheck.setTitle("Resistor Calculator");
-		frmResistorCheck.setBounds(100, 100, 1090, 400);
+		frmResistorCheck.setBounds(100, 100, 1090, 431);
 		frmResistorCheck.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		
