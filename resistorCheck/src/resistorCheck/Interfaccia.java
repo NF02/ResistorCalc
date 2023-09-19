@@ -307,6 +307,7 @@ public class Interfaccia {
 		menuBar.add(mnHelp);
 		
 		JMenuItem mntmManual = new JMenuItem("Manual");
+		mntmManual.setVisible(false);
 		mnHelp.add(mntmManual);
 		
 		JMenu mnReference = new JMenu("Reference");
