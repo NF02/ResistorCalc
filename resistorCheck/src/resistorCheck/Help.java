@@ -11,7 +11,7 @@ public class Help {
  public Help(){
   frame.setAutoRequestFocus(false);
   frame.setResizable(false);
-  float version = (float) 1.02;
+  float version = (float) 1.4;
   //frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   frame.setSize(598,418);
   frame.getContentPane().setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
